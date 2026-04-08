@@ -1,0 +1,26 @@
+auth-system/
+│
+├── backend/
+│   ├── app/
+│   │   ├── __init__.py
+│   │   ├── models.py
+│   │   ├── routes/
+│   │   │   ├── auth.py
+│   │   ├── utils/
+│   │   │   ├── jwt_utils.py
+│   │
+│   ├── config.py
+│   ├── run.py
+│   ├── requirements.txt
+│   ├── .env
+│
+├── frontend/
+│   ├── src/
+│   │   ├── pages/
+│   │   │   ├── Login.js
+│   │   │   ├── Register.js
+│   │   │   ├── Dashboard.js
+│   │   ├── services/api.js
+│   │   ├── App.js
+│
+├── README.md
